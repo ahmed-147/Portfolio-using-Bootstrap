@@ -1,0 +1,51 @@
+*{
+    font-size:1.4vw;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/background-img2.jpg'),linear-gradient(rgb(1, 0, 23,  28%), rgb(0,1, 23)) ;
+    background-blend-mode: multiply ;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navDiv{
+    background-image: linear-gradient( rgba(0, 1, 23, 0.7), rgba(1, 0, 23, 0.27)) !important;
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        font-size:2.4vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) { 
+    *{
+    font-size:2.4vw;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    *{
+    font-size:1.8vw;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{
+        font-size:1.6vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    *{
+        font-size:1.4vw;
+    }
+}

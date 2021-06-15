@@ -1,0 +1,36 @@
+
+body{
+    background-image: url('../images/background-img2.jpg'), linear-gradient(rgb(1, 0, 23,  28%), rgb(0,1, 23)) ;
+    
+}
+
+/* ---------------------------- */
+#introDiv{
+    padding:9% 0%;
+}
+
+
+#personImg:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+#aboutMeLink{
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+
+#hoverLinkSpan:hover,
+.m_Btn:hover{
+    animation: pulse; 
+    animation-duration: 2s;
+
+}
+
+.m_Btn{
+    outline: none;
+    background: none;
+    border:none;
+}

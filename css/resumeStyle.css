@@ -1,0 +1,42 @@
+
+body{
+    background-image: url('../images/background-img4.jpg'), linear-gradient(rgb(1, 0, 23,  28%), rgb(0,1, 23));    
+}
+
+/* ---------------------------- */
+#introDiv{
+    padding:2% 0%;
+}
+
+
+#personImg:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+#aboutMeLink{
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+
+#hoverLinkSpan:hover,
+.m_Btn:hover{
+    animation: pulse; 
+    animation-duration: 2s;
+
+}
+
+.m_Btn{
+    outline: none;
+    background: none;
+    border:none;
+}
+
+.mylist{
+    background-color: none;
+}
+.interestEment{
+    background-color: rgba(0, 0, 0, 0.596);
+}
